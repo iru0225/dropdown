@@ -7,35 +7,7 @@ function App() {
       <Dropdown
         id='dropdown'
         name='dropdown'
-        label='Kucing Oren'
-        withSearch
-        options={[
-          {
-            id: 'option-1',
-            label: 'Option 1',
-            value: 'option-1'
-          },
-          {
-            id: 'option-2',
-            label: 'Option 2',
-            value: 'option-2'
-          },
-          {
-            id: 'option-3',
-            label: 'Option 3',
-            value: 'option-3'
-          },
-          {
-            id: 'option-4',
-            label: 'Option 4',
-            value: 'option-4'
-          }
-        ]}
-      />
-      <Dropdown
-        id='dropdown'
-        name='dropdown'
-        label='Kucing Oren'
+        label='Dropdown Component'
         multiselect
         withSearch
         options={[
